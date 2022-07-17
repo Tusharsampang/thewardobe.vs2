@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'iran_sans_bold';
+    src: url('../Fonts/iran_sans_bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'iran_sans_light';
+    src: url('../Fonts/iran_sans_light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'iran_sans_medi';
+    src: url('../Fonts/iran_sans_medi.woff') format('woff');
+}
+*{
+    font-family:iran_sans_light;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .2s linear;
+}
+html{
+    font-size: 60%;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+}
+header{
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: #fff;
+    padding: 1.5rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+header .logo{
+    font-size: 2rem;
+    color: #000;
+    font-weight: 500;
+}
+header .navbar a{
+    font-size: 1.5rem;
+    color: #000;
+    margin: 0 2rem;
+}
+header .navbar a:hover{
+    color: orangered;
+}
+header .button a{
+    font-size: 2rem;
+    color: #000;
+    margin-left: 1.5rem;
+}
+header .icons a:hover{
+    color: orangered;
+}
+#menu-bar{
+    font-size: 2rem;
+    padding: .5rem 1rem;
+    border: .1rem solid #000;
+    color: #000;
+    border-radius: .3rem;
+    cursor: pointer;
+    display: none;
+}
+/* end header  */
+
+
+ .main-body .content{
+    padding: 1rem;
+}
+ .main-body .box img{
+    height: 20rem;
+    transform: rotate(-35deg);
+    margin: 8rem 2rem;
+}
+ .main-body .box:hover img{
+    transform:  scale(1.2);
+}
+
+
+
+.topnav input{
+    outline-color: black;
+}
+.btn{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px;
+    color: rgb(103, 19, 19);
+  text-align:center;
+    cursor: pointer;
+    width: 200px;
+    font-size: 20px;
+    margin: 4px 2px;
+    border-radius: 10px;
+}
+.btn:hover{
+color: #555;
+}
+
+.main-body{
+    height: 30vh;
+}
